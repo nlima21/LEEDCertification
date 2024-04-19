@@ -4,11 +4,8 @@ import openai
 st.markdown(
     """
     <style>
-    h1 {
-        color: blue;
-    }
-    p {
-        font-size: 20px;
+    body {
+        background-color: #b3ffab;
     }
     </style>
     """,
