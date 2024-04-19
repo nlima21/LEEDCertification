@@ -1,17 +1,6 @@
 import streamlit as st
 import openai
 
-st.markdown(
-    """
-    <style>
-    body {
-        background-color: #b3ffab;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
 st.title("LEED Certification Assistant")
 
 # Set OpenAI API key from Streamlit secrets
