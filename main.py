@@ -2,7 +2,7 @@ import streamlit as st
 import openai
 
 
-st.title("Leed Certification Assistant")
+st.title("LEED Certification Assistant")
 
 # Set OpenAI API key from Streamlit secrets
 
@@ -34,7 +34,7 @@ if prompt := st.text_input("You", key="user_input"):
     response = openai.ChatCompletion.create(
         model=model_choice,
         messages=[
-            {"role": "system", "content": "You are helping people get LEEd certified."},
+            {"role": "system", "content": "You are helping people get LEED certified."},
             {"role": "user", "content": prompt}
         ]
     )
