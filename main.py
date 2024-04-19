@@ -4,8 +4,9 @@ import openai
 st.title("LEED Certification Assistant")
 
 # Set OpenAI API key from Streamlit secrets
+api_key = st.secrets["openai"]["api_key"]
+openai.api_key = api_key
 
-openai.api_key = "sk-proj-PiKsyLD7hH1Sflpc4AUOT3BlbkFJqp7lkXDYANe8AhF9vayC"
 
 # Set a default model
 models = ["gpt-3.5-turbo"]
