@@ -6,7 +6,7 @@ st.title("Leed Certification Assistant")
 
 # Set OpenAI API key from Streamlit secrets
 
-openai.api_key = "sk-proj-dXDnQQVCMpJ8fzET9jtyT3BlbkFJHUQYdXE4cGDU6P2oer1s"
+openai.api_key = "sk-proj-PiKsyLD7hH1Sflpc4AUOT3BlbkFJqp7lkXDYANe8AhF9vayC"
 
 # Set a default model
 models = ["gpt-3.5-turbo"]
