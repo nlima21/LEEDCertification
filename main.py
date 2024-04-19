@@ -1,6 +1,19 @@
 import streamlit as st
 import openai
 
+st.markdown(
+    """
+    <style>
+    h1 {
+        color: blue;
+    }
+    p {
+        font-size: 20px;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 st.title("LEED Certification Assistant")
 
